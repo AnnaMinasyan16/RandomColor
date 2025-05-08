@@ -2,7 +2,7 @@
   "name": "randomcolortask",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/AnnaMinasyan16/RandomColor",
+  "homepage": "https://annaminasyan16.github.io/RandomColor/",
   "type": "module",
   "scripts": {
     "dev": "vite",
