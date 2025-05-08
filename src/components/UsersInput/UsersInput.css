@@ -1,0 +1,96 @@
+/* Container styles */
+.input-container,
+.assigned-color-container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading styles */
+.input-container h1,
+.assigned-color-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field */
+.name-input {
+  width: 80%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+.name-input:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+/* Submit button */
+.get-color-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-color-button:hover {
+  background-color: #574fd6;
+}
+
+/* Assigned color box */
+.assigned-color {
+  margin-top: 20px;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+
+/* Message styles */
+.assigned-color-container p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #444;
+}
+
+.cyrcle {
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid black;
+  padding: 20px;
+  border-radius: 50%;
+  display: block;
+  animation: spin 1s linear infinite;
+}
+
+.cyrcle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
